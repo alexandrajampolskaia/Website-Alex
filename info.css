@@ -1,0 +1,17 @@
+ul, li {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    border-left: 1px solid #ccc;
+}
+li:first-of-type {
+    border: 0;
+}
+li a {
+    display: inline-block;
+    padding: 15px;
+    line-height: 40px;
+}
